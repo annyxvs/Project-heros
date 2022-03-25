@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+.main{
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(../image/moon-knight-ak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+
+  .center{
+    margin: 0 auto;
+    margin-top: 16rem;
+
+
+    .name{
+      font-size: 3rem;
+      color: #353535;
+      font-family: 'Neucha', cursive;
+      line-height: 8rem;
+      margin-left: 4rem;
+
+      text-transform: uppercase;
+
+      display: flex;
+      align-items: flex-end;
+      text-align: right;
+
+      span{
+        font-size: 13rem;
+
+        display: block;
+        align-items: flex-start;
+      }
+    }
+    .bnt-trailer{
+      margin: 0 auto;
+      margin-top: 3rem;
+      margin-left: 14rem;
+
+        a{
+        display: flex;
+        align-items: center;
+        padding: 0.8rem;
+        padding-right: 1rem;
+        width: 15vw;
+
+        font-size: 1.5rem;
+
+
+        cursor: pointer;
+
+        border-radius: 2rem ;
+        background-color: #000000;
+
+        transition: 0.5s;
+
+        text-decoration: none;
+        color: #727272;
+
+        font-family: 'Sora', sans-serif;
+
+        }
+      :hover{
+        background-color: rgb(44, 47, 87);
+        color: #000000;
+      }
+    }
+  }
+}
+
+

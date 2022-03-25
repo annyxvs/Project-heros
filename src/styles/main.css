@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap");
+.main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../image/moon-knight-ak.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main .center {
+  margin: 0 auto;
+  margin-top: 16rem;
+}
+
+.main .center .name {
+  font-size: 3rem;
+  color: #353535;
+  font-family: 'Neucha', cursive;
+  line-height: 8rem;
+  margin-left: 4rem;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: right;
+}
+
+.main .center .name span {
+  font-size: 13rem;
+  display: block;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.main .center .bnt-trailer {
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-left: 14rem;
+}
+
+.main .center .bnt-trailer a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0.8rem;
+  padding-right: 1rem;
+  width: 15vw;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 2rem;
+  background-color: #000000;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+  color: #727272;
+  font-family: 'Sora', sans-serif;
+}
+
+.main .center .bnt-trailer :hover {
+  background-color: #2c2f57;
+  color: #000000;
+}
+/*# sourceMappingURL=main.css.map */

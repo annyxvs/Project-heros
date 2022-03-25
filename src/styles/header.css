@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: fixed;
+  height: 100vh;
+}
+
+.header .background {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-color: #1d1d1da8;
+  width: 4rem;
+  height: 100vh;
+  -webkit-filter: blur(1px);
+          filter: blur(1px);
+}
+
+.header header {
+  left: 0;
+  right: 0;
+  z-index: 99999;
+  width: 4rem;
+  height: 100vh;
+  color: #ebebeb;
+  font-family: 'Sora', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header header .logo {
+  color: #ebebeb;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1rem;
+  margin-left: 0.7rem;
+  margin-top: 4rem;
+}
+
+.header header .image-hero {
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.header header .nav {
+  margin: 1rem;
+}
+
+.header header .nav ul {
+  margin-bottom: 4rem;
+}
+
+.header header .nav ul li {
+  list-style: none;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+}
+
+.header header .nav ul li a {
+  color: #ebebeb;
+  font-size: 1.5rem;
+}
+
+.nav ul li:hover {
+  background-color: #233e7d46;
+  border-radius: 0.2rem;
+}
+/*# sourceMappingURL=header.css.map */

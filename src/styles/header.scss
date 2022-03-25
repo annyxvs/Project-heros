@@ -1,0 +1,88 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+
+.header{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+
+ .background{
+   position: fixed;
+   left: 0;
+   right: 0;
+   z-index: 1;
+
+   display: block;
+   background-color: #1d1d1da8;
+   width: 4rem;
+   height: 100vh;
+  
+   filter: blur(1px);
+  }
+
+  header{
+    left: 0;
+    right: 0;
+    z-index: 99999;
+
+    width: 4rem;
+    height: 100vh;
+
+    color: #ebebeb;
+    font-family: 'Sora', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    .logo{
+      color: #ebebeb;
+      font-size: 1rem;
+
+      display: flex;
+      margin: 1rem;
+      margin-left: 0.7rem;
+      margin-top: 4rem;
+
+    }
+
+    .image-hero{
+      margin: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .nav{
+      margin: 1rem;
+      ul{
+        margin-bottom: 4rem;
+
+        li{
+          list-style: none;
+          margin-bottom: 1rem;
+
+          padding: 0.2rem;
+          a{
+            color: #ebebeb;
+  
+            font-size: 1.5rem;
+          }
+        }
+
+      }
+      }
+
+  }
+}
+
+.nav ul li:hover {
+    background-color: #233e7d46;
+    border-radius: 0.2rem;
+}

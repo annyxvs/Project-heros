@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+.synopsis{
+  width: 100vw;
+  height: 100vh;
+
+  background-image: url(../image/background-synopsis.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.section-text{
+  padding: 6rem;
+  padding-bottom: 2rem;
+  h1{
+    width: 10vw;
+    padding: 1rem;
+    display: flex;
+    text-align: center;
+
+    font-family: 'Neucha', cursive;
+    font-size: 2.5rem;
+
+    background-color: #bbbbbb;
+    border-radius: .4rem;
+  }
+  p{
+    margin-top: 4rem;
+
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+  }
+}
+
+.galery{
+    position: absolute;
+    right: 0;
+  img{
+    height: 20vw;
+    width: 15vw;
+    padding-right: 1rem;
+  }
+}

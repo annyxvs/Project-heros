@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@500&display=swap');
+
+.conteiner-image{
+  padding: 2rem;
+  padding-left: 4rem;
+  display: flex;
+  .card{
+    padding: 2rem;
+    width: 13.5vw;
+    height: 45vh;
+    margin: 3rem;
+    background-color: #272727;
+
+    border-radius: .2rem;
+    border: 0.2rem #000000 solid;
+    
+    box-shadow: 1rem 1rem 2rem 0.1rem rgba(104, 104, 104, 0.322);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    img{
+      height: 15rem;
+      width: 12rem;
+      border-radius: 0.2rem;
+    }
+    .name-actor{
+      margin-top: 1rem;
+
+
+      font-family: 'Sora', sans-serif;
+      color: rgb(224, 224, 224);
+    }
+  }
+}
